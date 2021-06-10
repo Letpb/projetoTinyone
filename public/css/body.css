@@ -1,0 +1,195 @@
+.area1 {
+    background: var(--default-color);
+    color: #555555;
+    padding: 35px;
+    vertical-align: middle;
+  }
+  @media (max-width: 425px) {
+    .area1 {
+      padding: 0;
+    }
+  }
+  .area1 .left {
+    font-size: 12px;
+    float: left;
+    padding: 70px 0;
+  }
+  @media (max-width: 425px) {
+    .area1 .left {
+      padding: 35px 0;
+    }
+  }
+  .area1 .left img {
+    display: inline-block;
+    margin: 30px 22px 0 auto;
+  }
+  .area1 .left span {
+    display: block;
+    margin: 15px 0;
+    max-width: 320px;
+  }
+  @media (max-width: 425px) {
+    .area1 .left .stores {
+      text-align: center;
+    }
+  }
+  .area1 .right {
+    float: right;
+  }
+  .area1 .right img {
+    border-radius: 10px;
+  }
+  @media (max-width: 365px) {
+    .area1 .right img {
+      max-width: 100%;
+    }
+  }
+  .area1 .left,
+  .area1 .right {
+    display: block;
+    max-width: 50%;
+  }
+  @media (max-width: 750px) {
+    .area1 .left,
+  .area1 .right {
+      text-align: center;
+    }
+    .area1 .left img,
+  .area1 .right img {
+      max-width: 80%;
+    }
+  }
+  @media (max-width: 700px) {
+    .area1 .left,
+  .area1 .right {
+      max-width: 100%;
+      text-align: center;
+      float: none;
+    }
+    .area1 .left span,
+  .area1 .right span {
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+  .area1 .title {
+    color: #010101;
+    display: block;
+    font-size: 28px;
+    
+  }
+  @media (max-width: 700px) {
+    .area1 .title {
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 425px) {
+    .area1 .title {
+      font-size: 24px;
+    }
+  }
+  .area1 .subtitle-one {
+    color: #313841;
+    font-size: 16px;
+    max-width: 315px;
+  }
+  .area1 .ballnav {
+    margin: 20px 0;
+    text-align: center;
+  }
+  @media (max-width: 425px) {
+    .area1 .ballnav {
+      padding: 0 0 25px 0;
+    }
+  }
+  .area1 .ballnav li {
+    display: inline-block;
+    list-style: none;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    background: white;
+    opacity: 0.7;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .area1 .ballnav li:hover, .area1 .ballnav li.active {
+    opacity: 1;
+  }
+  
+  .area2 {
+    padding: 100px 0 130px 0;
+    vertical-align: middle;
+  }
+  @media (max-width: 500px) {
+    .area2 {
+      padding: 50px 0 70px 0;
+    }
+  }
+  .area2 .feadesc {
+    display: block;
+    max-width: 630px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .area2 .feadesc span {
+    text-align: center;
+  }
+  .area2 .featitle {
+    font-size: 28px;
+    color: #010101;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+  .area2 .fully {
+    width: 33.3%;
+    color: #898989;
+    float: left;
+    margin-top: 90px;
+  }
+  .area2 .fully img,
+  .area2 .fully span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .area2 .fully img {
+    margin: 0 10px 10px 0;
+    max-width: 35px;
+    height: auto;
+  }
+  @media (max-width: 760px) {
+    .area2 .fully {
+      width: 50%;
+      padding: 0 30px;
+    }
+  }
+  @media (max-width: 570px) {
+    .area2 .fully {
+      padding: 0 15px;
+    }
+  }
+  @media (max-width: 500px) {
+    .area2 .fully {
+      width: 100%;
+      margin-top: 45px;
+    }
+    .area2 .fully img {
+      max-width: 25px;
+    }
+  }
+  .area2 .fullytitle {
+    font-size: 18px;
+    color: #010101;
+    margin: 0 0 15px 0;
+  }
+  .area2 .img-fully {
+    float: left;
+    max-width: 20%;
+    padding: 0 10px 0 0;
+  }
+  .area2 .content-fully {
+    float: left;
+    max-width: 80%;
+  }
+  

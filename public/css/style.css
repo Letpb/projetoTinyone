@@ -1,0 +1,14 @@
+.clearfix:after, .area3 .footer:after, .area2 .options:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+ 
