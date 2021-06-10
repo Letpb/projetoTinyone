@@ -20,7 +20,5 @@ Documentação.
 
 ## Uma missão
 Desenvolver uma página, baseando-se no layout abaixo (PSD e PNG então ativos de massas):
-Suporte nos navegadores: IE9 +, Chrome, Firefox;# projetoTinyone
-
-# projetoTinyone
+Suporte nos navegadores: IE9 +, Chrome, Firefox;
 
